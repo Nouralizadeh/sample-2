@@ -1,4 +1,3 @@
-import React from 'react'
 import { UserType } from './UserContext'
 import { Box, Title, Text } from '@mantine/core'
 

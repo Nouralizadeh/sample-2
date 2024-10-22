@@ -73,7 +73,7 @@ const columns = useMemo<MRT_ColumnDef<UserType>[]>(
         filterVariant: 'range-slider',
         Cell: ({ cell }) => (
           <Box
-            sx={(theme: any) => ({
+            sx={() => ({
               backgroundColor: cell.getValue<string>(),
               borderRadius: '4px',
               color: '#fff',
