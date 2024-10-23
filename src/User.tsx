@@ -17,7 +17,7 @@ function User({ user }: { user?: UserType }) {
                     <img
                         alt="avatar"
                         height={200}
-                        src={user.avatar ?? "../public/profile.jpg"}
+                        src={user.avatar ?? "./profile.jpg"}
                         style={{ borderRadius: '50%' }}
                     />
                     <Box sx={{ textAlign: 'center' }}>

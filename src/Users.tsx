@@ -17,7 +17,7 @@ export default function Users() {
   const { data, page, perPage, loading } = fetchUsers()
   const [currentUser, setCurrentUser] = useState<UserType | undefined>(undefined)
 
-  const defaultProfileAvatar = "../public/profile.jpg"
+  const defaultProfileAvatar = "./profile.jpg"
 //************************************************************************* */
 //**************************Columns definition***************************** */
 //************************************************************************* */
